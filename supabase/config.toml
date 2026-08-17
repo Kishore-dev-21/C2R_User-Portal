@@ -1,0 +1,4 @@
+project_id = "zeoopillgsolqzaqifun"
+
+[functions.rationbot-chat]
+verify_jwt = false
