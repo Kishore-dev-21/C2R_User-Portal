@@ -158,27 +158,15 @@ npm run preview
 
 ## Application Flow
 
-```
-Login (Ration Card + Mobile)
-        |
-        v
-OTP Verification (SMS simulation)
-        |
-        v
-Citizen Dashboard
-        |
-        v
-Product Selection (Commodity catalog with quota limits)
-        |
-        v
-Order Confirmation (Itemized summary + cost)
-        |
-        v
-Real-Time Tracking (Live map + delivery agent + OTP handoff)
-        |
-        v
-Invoice Download (PDF receipt)
-```
+![Click2Ration End-to-End Application Flow](./docs/images/application-flow.png)
+
+1. **Citizen Authentication**: Beneficiaries log in using their 10-digit Ration Card number and registered mobile number.
+2. **OTP Verification**: Multi-factor authentication via 6-digit one-time password.
+3. **Citizen Dashboard**: Access family member quotas, available balances, and current month entitlement statuses.
+4. **Commodity Selection**: Select required commodities within allocated thresholds.
+5. **Order Review & Confirmation**: Review itemized pricing and booking summary.
+6. **Real-Time Delivery Tracking**: Track fair-price shop dispatch and delivery agent location on an interactive GPS map.
+7. **Digital Invoice & Receipt**: Secure delivery OTP confirmation and downloadable official PDF receipt.
 
 ---
 
